@@ -48,7 +48,7 @@ bool MapGenerator::load(string path)
 				((GameActor*)objetoNuevo)->setFramesDireccion(1);
 
 				/*objetoNuevo = factory->createParedInstance(tileNuevo, textureManager, x * Tile::altoTile, y * Tile::altoTile, false);
-				objetoNuevo->setFramesDireccion(1);*/
+				objetoNuevo->setFramesDireccion(1);   */
 				break;
 			case '.':
 				objetoNuevo = new Moneda(tileNuevo, TextureManager::getInstancia()->getTextura("moneda_clasico"));
